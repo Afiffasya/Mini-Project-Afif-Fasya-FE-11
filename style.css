@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 70px;
+    width: 40vh;
+    justify-content: center;
+}
+.d-flex1 {
+    width: 60%;
+    padding-top: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 19px;
+    }
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    color: yellow;
+    margin: 15px;
+}
+.menu li a:hover {
+    color: red;
+}
+.form-check-label {
+    color: white;
+}
+.signin-btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6A973;
+    text-decoration: none;
+}
+.signin-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+    margin-bottom: 20px;
+}
+.textinput {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #b3b3b3;
+    padding: 13px 20px;
+    margin-bottom: 24px;
+}
+.signup-btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6A973;
+    text-decoration: none;
+}
+.text-or {
+    margin: 32px 0 24px 0;
+}
+.breadcrumb {
+    margin-top: 12px;
+}
+.Category a  {
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.4s ease-in-out;
+}
+.Category a:hover {
+    color: red;
+}
+.card {
+    margin-bottom: 20px;
+    cursor: grab;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-body {
+    background-color: grey;
+}
+.card-text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.1);
+    
+}
+.movies-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .2rem 0;
+}
+.jdl {
+    color: red;
+}
+.desk {
+    color: white;
+}
+.modal-body ul li {
+    display: list-item;
+    color: white;
+    font-family: Arial;
+}
+.row h1 {
+    color: yellow;
+    margin-top: 20px;
+    text-align: center;
+    font-style: oblique;
+    transition: 0.4s ease-in-out;
+    font-size: 70px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+.form-label {
+    color: yellow;
+}
+.footer-top p {
+    color: yellow;
+}
+.footer-top h5 {
+    color: red;
+    padding-left: 31px;
+    padding-top: 50px;
+    margin-bottom: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;;
+    font-weight: bold;
+}
+.footer-top ul li {
+    list-style: none;
+    text-align: left;
+    line-height: 45px;
+}
+.footer-top ul li a {
+    color: yellow;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.footer-top ul li a:hover {
+    color: red;
+}
+.footer-bottom {
+    color: black;
+    background-color: red;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.contact-img {
+    width: 400px;
+    height: 370px;
+    padding-top: 10px;
+}
+.img-footer {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer-top p {
+    margin-left: 50px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+.social-links {
+    display: flex;
+    margin: 10px 0px 15px 50px;
+}
+.lnk {
+    width: 40px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+/* About */
+.row .breadcrumb {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.row ol li a {
+    color: red;
+}
+.section-intro {
+    margin-bottom: 35px;
+    text-align: center;
+}
+.section-intro p {
+    max-width: 500px;
+    margin: auto;
+    color: white;
+}
